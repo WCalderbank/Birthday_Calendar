@@ -4,7 +4,7 @@
 
 .box {
   background: black;
-  border: 1px solid lime;
+  border: 1px solid cyan;
   border-radius: 0.25rem;
   text-align: center;
 }

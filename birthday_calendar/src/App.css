@@ -22,7 +22,7 @@ main {
 }
 
 .bday-container button {
-  color: lime;
+  color: cyan;
   display: block;
   width: 100%;
   border-color: black;
@@ -33,7 +33,7 @@ main {
   padding: 0.5rem 0;
   letter-spacing: 0.1rem;
   border-radius: 0.25rem;
-  outline: 1px solid lime;
+  outline: 1px solid cyan;
   cursor: pointer;
 }
 
@@ -42,7 +42,7 @@ main {
   text-transform: none;
   margin-bottom: 2rem;
   background: black;
-  color: lime;
+  color: cyan;
 }
 .birthday {
   display: grid;
@@ -58,14 +58,15 @@ main {
   object-fit: cover;
   border-radius: 50%;
   box-shadow: var(--light-shadow);
+  border: 2px solid cyan;
 }
 .birthday h4 {
   margin-bottom: 0.35rem;
   background: black;
-  color: lime;
+  color: cyan;
 }
 .birthday p {
   margin-bottom: 0;
   background: black;
-  color: lime;
+  color: cyan;
 }
