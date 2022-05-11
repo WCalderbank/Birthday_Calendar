@@ -1,9 +1,10 @@
+import Frank from "../Images/Frank.jpg";
 let Birthday_data = [
   {
     id: 1,
     name: "Beth Field",
     age: 25,
-    image: "URL",
+    image: ,
   },
   {
     id: 2,

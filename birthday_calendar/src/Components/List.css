@@ -1,0 +1,10 @@
+.list {
+  background: black;
+}
+
+.box {
+  background: black;
+  border: 1px solid lime;
+  border-radius: 0.25rem;
+  text-align: center;
+}

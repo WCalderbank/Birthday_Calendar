@@ -1,7 +1,25 @@
 import React from "react";
+import "./List.css";
 
-function List() {
-  return <div>List Component</div>;
-}
+const List = ({ birthdays }) => {
+  return (
+    <>
+      <div className="list">
+        {birthdays.map((birthday) => {
+          const { id, name, age, image } = birthday;
+          return (
+            <article key={id} className="birthday">
+              <img src={image} alt={name} />
+              <div className="box">
+                <h4>{name}</h4>
+                <p>{age} years old</p>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </>
+  );
+};
 
 export default List;
