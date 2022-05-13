@@ -3,6 +3,7 @@ import Beth from "../Images/Lime Hat.png";
 import James from "../Images/James.jpg";
 import Lizzie from "../Images/Puppy.jpeg";
 import Walter from "../Images/Maul.jpeg";
+import Wendy from "../Images/Stitch.jpeg";
 let Birthday_data = [
   {
     id: 1,
@@ -33,6 +34,12 @@ let Birthday_data = [
     name: "Walter Jones",
     age: 21,
     snap: Walter,
+  },
+  {
+    id: 6,
+    name: "Wendy Jones",
+    age: 21,
+    snap: Wendy,
   },
 ];
 
