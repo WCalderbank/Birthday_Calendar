@@ -1,3 +1,4 @@
+import "./Birthday_data.css";
 import Frank from "../Images/Frank.jpg";
 import Beth from "../Images/Lime Hat.png";
 import James from "../Images/James.jpg";
